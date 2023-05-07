@@ -6,6 +6,7 @@ import { Testimonials } from "./Testimonials";
 import { Contact } from "./Contact";
 import { useTransition } from "react-spring";
 import { LoadingScreen } from "./LoadingScreen";
+import { Appbar } from "./Appbar";
 
 function MainView() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -69,6 +70,7 @@ function MainView() {
 
   return (
     <>
+      <Appbar />
       <LoadingScreen transition={transition} />
       <Main ref={aboutRef} />
       <Navigation
