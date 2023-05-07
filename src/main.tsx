@@ -13,8 +13,8 @@ import { publicProvider } from "wagmi/providers/public";
 const { chains, provider } = configureChains([mainnet, polygon, optimism, arbitrum], [publicProvider()]);
 
 const { connectors } = getDefaultWallets({
-  appName: "My RainbowKit App",
-  projectId: "YOUR_PROJECT_ID",
+  appName: "Nika Khachiashvili - Portfolio",
+  projectId: "NIKAKHACHI_PORTFOLIO",
   chains,
 });
 
