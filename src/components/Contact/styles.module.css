@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  font-size: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  width: 50rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 1rem 0 2rem 0;
+}
+
+.description a {
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .description {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .form {
+    width: 90%;
+  }
+}
