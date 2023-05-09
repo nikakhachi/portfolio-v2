@@ -1,3 +1,8 @@
+export enum ProjectType {
+  WEB2,
+  WEB3,
+}
+
 const projects = [
   {
     name: "Salescoach",
@@ -16,6 +21,7 @@ const projects = [
       "assets/projects/sc/8.png",
     ],
     technologies: ["ReactJS", "ThreeJS", "NodeJS", "PostgreSQL"],
+    type: ProjectType.WEB2,
   },
   {
     name: "Chakrulo",
@@ -31,6 +37,7 @@ const projects = [
       "assets/projects/ch/5.png",
     ],
     technologies: ["ReactJS", "ThreeJS", "NodeJS"],
+    type: ProjectType.WEB3,
   },
   {
     name: "Traffic Analysis",
@@ -40,6 +47,7 @@ const projects = [
     image: "assets/projects/ta/TA.jpg",
     slideshow: ["assets/projects/ta/TA.jpg", "assets/projects/ta/TA2.jpg", "assets/projects/ta/TA3.jpg"],
     technologies: ["ReactJS", "DeckGL", "NodeJS", "DynamoDB"],
+    type: ProjectType.WEB2,
   },
   {
     name: "Counter Disinformation",
@@ -54,8 +62,8 @@ const projects = [
       "assets/projects/cd/CD4.png",
       "assets/projects/cd/CD5.png",
     ],
-
     technologies: ["ReactJS", "Force-Graph", "NodeJS", "SocketIO", "Neo4j", "PostgreSQL", "S3", "SQS"],
+    type: ProjectType.WEB2,
   },
   {
     name: "Mention Analytics",
@@ -65,6 +73,7 @@ const projects = [
     image: "assets/projects/mm/1.png",
     slideshow: ["assets/projects/mm/1.png", "assets/projects/mm/2.png", "assets/projects/mm/3.png", "assets/projects/mm/4.png"],
     technologies: ["AngularJS", "Python", "Scrapy", "MongoDB"],
+    type: ProjectType.WEB2,
   },
   {
     name: "Golden Gate",
@@ -79,6 +88,7 @@ const projects = [
     ],
 
     technologies: ["ReactJS", "TypeScript"],
+    type: ProjectType.WEB2,
   },
   {
     name: "B Bot",
@@ -86,8 +96,8 @@ const projects = [
     description: "Messenger bot. Serves as a number 1 insurance bot in Georgia.",
     image: "assets/projects/bbot/BB.jpeg",
     slideshow: ["assets/projects/bbot/BB.jpeg"],
-
     technologies: ["NodeJS", "Botkit", "PostgreSQL"],
+    type: ProjectType.WEB2,
   },
 ];
 
