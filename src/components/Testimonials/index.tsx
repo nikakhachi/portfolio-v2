@@ -9,6 +9,17 @@ export const Testimonials: FC<TestimonialsProps> = forwardRef((_, ref) => {
   return (
     <div ref={ref} className={styles.container}>
       <h3 className={styles.title}>Testimonials</h3>
+      <span>
+        (Full versions on{" "}
+        <strong>
+          <u>
+            <a href="https://www.linkedin.com/in/nika-khachiashvili/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+          </u>
+        </strong>
+        )
+      </span>
       <hr />
       <div className={styles.testimonialsContainer}>
         {testimonials.map((testimonial, index) => (

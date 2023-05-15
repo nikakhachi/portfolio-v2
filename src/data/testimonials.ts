@@ -1,12 +1,24 @@
 const testimonials = [
   {
+    author: "Marco Dietrich",
+    authorUrl: "https://www.linkedin.com/in/marcodietrich/",
+    photo: "assets/testimonials/profile4.jpeg",
+    company: "Riwers",
+    companyUrl: "https://riwers.io/",
+    position: "Owner",
+    testimonial: `...Beyond his technical skills, Nika was an exceptional team player. 
+      His communication skills and positive attitude fostered a collaborative environment that 
+      elevated the productivity of the entire team. He was always available to provide guidance, 
+      share his knowledge, and offer support to his colleagues.`,
+  },
+  {
     author: "Ketevan Bosikashvili",
     authorUrl: "https://www.linkedin.com/in/ketevan-bosikashvili-b8772776/",
     photo: "assets/testimonials/profile.jpeg",
     company: "Supernova",
     companyUrl: "https://en.supernova.ge/",
     position: "Executive Director",
-    testimonial: `... I have been consistently impressed with his attitude and productivity during that time.
+    testimonial: `...I have been consistently impressed with his attitude and productivity during that time.
       Nika is both very bright and quite motivated. 
       I am confident that he will devote himself to the new job with a high degree of diligence. 
       He is a quick learner and has shown the ability to achieve high performance and goals.`,
