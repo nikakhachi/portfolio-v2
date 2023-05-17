@@ -1,5 +1,17 @@
 const testimonials = [
   {
+    author: "Yves Süess",
+    authorUrl: "https://www.linkedin.com/in/yves-s%C3%BCess-36089551/",
+    photo: "assets/testimonials/profile5.jpeg",
+    company: "Business Transaction AG",
+    companyUrl: "https://businesstransaction.ch/",
+    position: "Partner",
+    testimonial: `...Nika works very fast, qualitatively on an extremely high level and also 
+      implemented things with high complexity to our complete satisfaction. Nika communicates 
+      to the point, is very patient and always courteous. We would work with Nika again at any 
+      time and highly recommend him. Thank you!`,
+  },
+  {
     author: "Marco Dietrich",
     authorUrl: "https://www.linkedin.com/in/marcodietrich/",
     photo: "assets/testimonials/profile4.jpeg",
