@@ -6,32 +6,33 @@ export enum ProjectType {
 const projects = {
   web3: [
     {
-      name: "AI NFT Minter",
+      name: "AI-Minted",
       client: "Personal",
-      description:
-        "A Unique platform for musicians and other audio enthusiasts, who are passionate about exploring different ways of experiencing sound. Chakrulo transforms any audio into a visual art form, to a conceptual shape, nature-inspired, reminding you of an Eye. It generates a unique pattern of colors just like an eye has. Here begins a digital transformation, where everyone can express and discover themselves.",
+      description: `Connect your wallet, generate AI-powered images, and mint your favorites as NFTs. Unleash your creativity 
+          with this intuitive dApp, combining cutting-edge AI technology with seamless blockchain integration. 
+          Elevate your digital art collection and become part of a vibrant community of artists and collectors.`,
       image: "assets/projects/ainft/1.png",
       slideshow: ["assets/projects/ainft/1.png"],
-      technologies: ["ReactJS", "ThreeJS", "NodeJS"],
+      technologies: ["Solidity", "Hardhat", "NextJS"],
       type: ProjectType.WEB3,
     },
     {
-      name: "Advanced Escrow",
+      name: "SecureTransaction",
       client: "Personal",
-      description:
-        "A Unique platform for musicians and other audio enthusiasts, who are passionate about exploring different ways of experiencing sound. Chakrulo transforms any audio into a visual art form, to a conceptual shape, nature-inspired, reminding you of an Eye. It generates a unique pattern of colors just like an eye has. Here begins a digital transformation, where everyone can express and discover themselves.",
+      description: `The dApp is enabling users to initiate escrows for their transactions. Intermediary agents handle escrow initiation, 
+        cancellation, and rejection. Agents receive a fee from successful escrows and everyone can apply to become an agent once they
+        have been approved by the smart contract owner.`,
       image: "assets/projects/escrow/1.png",
       slideshow: ["assets/projects/escrow/1.png"],
-      technologies: ["ReactJS", "ThreeJS", "NodeJS"],
+      technologies: ["Solidity", "Hardhat", "ReactJS"],
       type: ProjectType.WEB3,
     },
     {
       name: "Chakrulo",
       client: "Startup",
-      description: `A Unique platform for musicians and other audio enthusiasts, who are passionate about exploring 
-         different ways of experiencing sound. Chakrulo transforms any audio into a visual art form, to a 
-         conceptual shape, nature-inspired, reminding you of an Eye with its unique pattern of colors. The pattern
-         then is minted as an NFT.`,
+      description: `Chakrulo is a unique platform for musicians and audio enthusiasts seeking innovative ways to explore sound. 
+        It transforms audio into captivating visual art, resembling a nature-inspired Eye with a distinctive color pattern. 
+        These patterns can be minted as NFTs, creating a fusion of audio and visual creativity.`,
       image: "assets/projects/ch/1.png",
       slideshow: [
         "assets/projects/ch/1.png",
