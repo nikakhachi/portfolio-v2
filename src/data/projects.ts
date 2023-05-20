@@ -28,8 +28,10 @@ const projects = {
     {
       name: "Chakrulo",
       client: "Startup",
-      description:
-        "A Unique platform for musicians and other audio enthusiasts, who are passionate about exploring different ways of experiencing sound. Chakrulo transforms any audio into a visual art form, to a conceptual shape, nature-inspired, reminding you of an Eye. It generates a unique pattern of colors just like an eye has. Here begins a digital transformation, where everyone can express and discover themselves.",
+      description: `A Unique platform for musicians and other audio enthusiasts, who are passionate about exploring 
+         different ways of experiencing sound. Chakrulo transforms any audio into a visual art form, to a 
+         conceptual shape, nature-inspired, reminding you of an Eye with its unique pattern of colors. The pattern
+         then is minted as an NFT.`,
       image: "assets/projects/ch/1.png",
       slideshow: [
         "assets/projects/ch/1.png",
