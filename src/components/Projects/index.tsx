@@ -34,7 +34,7 @@ export const Projects: FC<ProjectsProps> = forwardRef((props, ref) => {
   return (
     <div ref={ref} className={styles.container}>
       <h3 className={styles.title}>
-        Projects <span>(Total {projects.length})</span>
+        Projects <span>(Total {projects.web2.length + projects.web3.length})</span>
       </h3>
       <hr />
       <span style={{ marginTop: "1rem" }}>
@@ -53,27 +53,24 @@ export const Projects: FC<ProjectsProps> = forwardRef((props, ref) => {
         Web2
       </span>
       <div className={styles.projectsContainer}>
-        {projects
-          .filter((item) => item.type == projectType)
-          .slice(0, limit)
-          .map((project, index) => (
-            <Project
-              key={index}
-              index={index}
-              image={project.image}
-              name={project.name}
-              description={project.description}
-              technologies={project.technologies}
-              slideshow={project.slideshow}
-              client={project.client}
-            />
-          ))}
+        {projects[projectType === ProjectType.WEB3 ? "web3" : "web2"].slice(0, limit).map((project, index) => (
+          <Project
+            key={index}
+            index={index}
+            image={project.image}
+            name={project.name}
+            description={project.description}
+            technologies={project.technologies}
+            slideshow={project.slideshow}
+            client={project.client}
+          />
+        ))}
       </div>
       <div>
         <button
           onClick={() => {
             if (limit === DEFAULT_LIMIT) {
-              setLimit(projects.length);
+              setLimit(projects.web2.length + projects.web3.length);
             } else {
               setLimit(DEFAULT_LIMIT);
               props.scrollToStart();
