@@ -1,6 +1,8 @@
 import styles from "./styles.module.css";
 import { Demo } from "./demo";
 import { FC, useState } from "react";
+import ModalVideo from "react-modal-video";
+import { Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Button } from "@mui/material";
 
 interface ProjectProps {
   image: string;
@@ -10,10 +12,12 @@ interface ProjectProps {
   index: number;
   slideshow: string[];
   client: string;
+  demo: string | null;
 }
 
-export const Project: FC<ProjectProps> = ({ image, name, description, technologies, index, slideshow, client }) => {
+export const Project: FC<ProjectProps> = ({ image, name, description, technologies, index, slideshow, client, demo }) => {
   const [isDemoOpen, setIsDemoOpen] = useState(false);
+  const [isDemoVideoOpen, setIsDemoVideoOpen] = useState(false);
 
   return (
     <>
@@ -24,14 +28,26 @@ export const Project: FC<ProjectProps> = ({ image, name, description, technologi
             <button disabled={name === "B Bot"} onClick={() => setIsDemoOpen(true)}>
               {slideshow.length === 1 ? "No Images" : "DEMO"}
             </button>
-            {isDemoOpen && <Demo slideshow={slideshow} close={() => setIsDemoOpen(false)} />}
+            {isDemoOpen && <Demo slideshow={[...slideshow]} close={() => setIsDemoOpen(false)} />}
           </div>
         </div>
         <div className={styles.infoDiv}>
           <h5>
-            {name} <span>({client})</span>
+            {name} <span>({client}) </span>
           </h5>
           <p>{description}</p>
+          {demo && (
+            <div className="justify-right w-full bg-white">
+              <Dialog open={isDemoVideoOpen} onClose={() => setIsDemoVideoOpen(false)}>
+                <video src={demo} controls autoPlay />
+              </Dialog>
+              <p>
+                <button className={styles.demoBtn} onClick={() => setIsDemoVideoOpen(true)}>
+                  Demo Video
+                </button>
+              </p>
+            </div>
+          )}
           <ul>
             {technologies.map((technology, index) => (
               <li key={index}>{technology}</li>

@@ -14,6 +14,7 @@ const projects = {
       image: "assets/projects/ainft/1.png",
       slideshow: ["assets/projects/ainft/1.png"],
       technologies: ["Solidity", "Hardhat", "NextJS"],
+      demo: "",
       type: ProjectType.WEB3,
     },
     {
@@ -25,6 +26,7 @@ const projects = {
       image: "assets/projects/escrow/1.png",
       slideshow: ["assets/projects/escrow/1.png"],
       technologies: ["Solidity", "Hardhat", "ReactJS"],
+      demo: "assets/projects/escrow/demo.mp4",
       type: ProjectType.WEB3,
     },
     {
@@ -42,6 +44,7 @@ const projects = {
         "assets/projects/ch/5.png",
       ],
       technologies: ["ReactJS", "ThreeJS", "NodeJS"],
+      demo: "",
       type: ProjectType.WEB3,
     },
   ],
@@ -63,6 +66,7 @@ const projects = {
         "assets/projects/sc/8.png",
       ],
       technologies: ["ReactJS", "ThreeJS", "NodeJS", "PostgreSQL"],
+      demo: "",
       type: ProjectType.WEB2,
     },
     {
@@ -72,6 +76,7 @@ const projects = {
         "App where authorized users can get the car information on any Tbilisi street camera at a selected time. Their average velocities and full routes across the town with visualization and statistics.",
       image: "assets/projects/ta/TA.jpg",
       slideshow: ["assets/projects/ta/TA.jpg", "assets/projects/ta/TA2.jpg", "assets/projects/ta/TA3.jpg"],
+      demo: "",
       technologies: ["ReactJS", "DeckGL", "NodeJS", "DynamoDB"],
       type: ProjectType.WEB2,
     },
@@ -89,6 +94,7 @@ const projects = {
         "assets/projects/cd/CD5.png",
       ],
       technologies: ["ReactJS", "Force-Graph", "NodeJS", "SocketIO", "Neo4j", "PostgreSQL", "S3", "SQS"],
+      demo: "",
       type: ProjectType.WEB2,
     },
     {
@@ -99,6 +105,7 @@ const projects = {
       image: "assets/projects/mm/1.png",
       slideshow: ["assets/projects/mm/1.png", "assets/projects/mm/2.png", "assets/projects/mm/3.png", "assets/projects/mm/4.png"],
       technologies: ["AngularJS", "Python", "Scrapy", "MongoDB"],
+      demo: "",
       type: ProjectType.WEB2,
     },
     {
@@ -112,8 +119,8 @@ const projects = {
         "assets/projects/goldenGate/GG3.png",
         "assets/projects/goldenGate/GG4.png",
       ],
-
       technologies: ["ReactJS", "TypeScript"],
+      demo: "",
       type: ProjectType.WEB2,
     },
     {
@@ -123,6 +130,7 @@ const projects = {
       image: "assets/projects/bbot/BB.jpeg",
       slideshow: ["assets/projects/bbot/BB.jpeg"],
       technologies: ["NodeJS", "Botkit", "PostgreSQL"],
+      demo: "",
       type: ProjectType.WEB2,
     },
   ],

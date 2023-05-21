@@ -85,6 +85,16 @@
   text-align: left;
 }
 
+.demoBtn {
+  background-color: var(--dark-blue);
+  color: white;
+  border: 1px solid var(--glowing-blue);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.4rem;
+}
+
 .infoDiv ul {
   box-sizing: border-box;
   display: flex;
