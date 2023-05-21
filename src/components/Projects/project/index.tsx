@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
 import { Demo } from "./demo";
 import { FC, useState } from "react";
-import ModalVideo from "react-modal-video";
-import { Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Button } from "@mui/material";
+import { Dialog } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 interface ProjectProps {
   image: string;
@@ -13,9 +13,10 @@ interface ProjectProps {
   slideshow: string[];
   client: string;
   demo: string | null;
+  github: string | null;
 }
 
-export const Project: FC<ProjectProps> = ({ image, name, description, technologies, index, slideshow, client, demo }) => {
+export const Project: FC<ProjectProps> = ({ image, name, description, technologies, index, slideshow, client, demo, github }) => {
   const [isDemoOpen, setIsDemoOpen] = useState(false);
   const [isDemoVideoOpen, setIsDemoVideoOpen] = useState(false);
 
@@ -36,18 +37,25 @@ export const Project: FC<ProjectProps> = ({ image, name, description, technologi
             {name} <span>({client}) </span>
           </h5>
           <p>{description}</p>
-          {demo && (
-            <div className="justify-right w-full bg-white">
-              <Dialog open={isDemoVideoOpen} onClose={() => setIsDemoVideoOpen(false)}>
-                <video src={demo} controls autoPlay />
-              </Dialog>
-              <p>
-                <button className={styles.demoBtn} onClick={() => setIsDemoVideoOpen(true)}>
-                  Demo Video
-                </button>
-              </p>
-            </div>
-          )}
+          <div style={{ display: "flex", justifyContent: "right", gap: "0.7rem", alignItems: "center" }}>
+            {github && (
+              <a target="_blank" rel="noreferrer" style={{ color: "white" }} href={github}>
+                <GitHubIcon />
+              </a>
+            )}
+            {demo && (
+              <>
+                <Dialog open={isDemoVideoOpen} onClose={() => setIsDemoVideoOpen(false)}>
+                  <video src={demo} controls autoPlay />
+                </Dialog>
+                <p>
+                  <button className={styles.demoBtn} onClick={() => setIsDemoVideoOpen(true)}>
+                    Demo Video
+                  </button>
+                </p>
+              </>
+            )}
+          </div>
           <ul>
             {technologies.map((technology, index) => (
               <li key={index}>{technology}</li>

@@ -15,6 +15,7 @@ const projects = {
       slideshow: ["assets/projects/ainft/1.png"],
       technologies: ["Solidity", "Hardhat", "NextJS"],
       demo: "",
+      github: "",
       type: ProjectType.WEB3,
     },
     {
@@ -27,6 +28,7 @@ const projects = {
       slideshow: ["assets/projects/escrow/1.png"],
       technologies: ["Solidity", "Hardhat", "ReactJS"],
       demo: "assets/projects/escrow/demo.mp4",
+      github: "https://github.com/nikakhachi/advanced-escrow-dapp",
       type: ProjectType.WEB3,
     },
     {
@@ -45,6 +47,7 @@ const projects = {
       ],
       technologies: ["ReactJS", "ThreeJS", "NodeJS"],
       demo: "",
+      github: "",
       type: ProjectType.WEB3,
     },
   ],
@@ -67,6 +70,7 @@ const projects = {
       ],
       technologies: ["ReactJS", "ThreeJS", "NodeJS", "PostgreSQL"],
       demo: "",
+      github: "",
       type: ProjectType.WEB2,
     },
     {
@@ -77,6 +81,7 @@ const projects = {
       image: "assets/projects/ta/TA.jpg",
       slideshow: ["assets/projects/ta/TA.jpg", "assets/projects/ta/TA2.jpg", "assets/projects/ta/TA3.jpg"],
       demo: "",
+      github: "",
       technologies: ["ReactJS", "DeckGL", "NodeJS", "DynamoDB"],
       type: ProjectType.WEB2,
     },
@@ -95,6 +100,7 @@ const projects = {
       ],
       technologies: ["ReactJS", "Force-Graph", "NodeJS", "SocketIO", "Neo4j", "PostgreSQL", "S3", "SQS"],
       demo: "",
+      github: "",
       type: ProjectType.WEB2,
     },
     {
@@ -106,6 +112,7 @@ const projects = {
       slideshow: ["assets/projects/mm/1.png", "assets/projects/mm/2.png", "assets/projects/mm/3.png", "assets/projects/mm/4.png"],
       technologies: ["AngularJS", "Python", "Scrapy", "MongoDB"],
       demo: "",
+      github: "",
       type: ProjectType.WEB2,
     },
     {
@@ -121,6 +128,7 @@ const projects = {
       ],
       technologies: ["ReactJS", "TypeScript"],
       demo: "",
+      github: "",
       type: ProjectType.WEB2,
     },
     {
@@ -131,6 +139,7 @@ const projects = {
       slideshow: ["assets/projects/bbot/BB.jpeg"],
       technologies: ["NodeJS", "Botkit", "PostgreSQL"],
       demo: "",
+      github: "",
       type: ProjectType.WEB2,
     },
   ],
