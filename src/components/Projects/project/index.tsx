@@ -39,7 +39,7 @@ export const Project: FC<ProjectProps> = ({ image, name, description, technologi
           <p>{description}</p>
           <div style={{ display: "flex", justifyContent: "right", gap: "0.7rem", alignItems: "center" }}>
             {github && (
-              <a target="_blank" rel="noreferrer" style={{ color: "white" }} href={github}>
+              <a className={styles.githubLink} target="_blank" rel="noreferrer" style={{ color: "white" }} href={github}>
                 <GitHubIcon />
               </a>
             )}
