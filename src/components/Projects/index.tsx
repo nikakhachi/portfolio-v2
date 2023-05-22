@@ -65,6 +65,7 @@ export const Projects: FC<ProjectsProps> = forwardRef((props, ref) => {
             client={project.client}
             demo={project.demo === "" ? null : project.demo}
             github={project.github === "" ? null : project.github}
+            url={project.url === "" ? null : project.url}
           />
         ))}
       </div>

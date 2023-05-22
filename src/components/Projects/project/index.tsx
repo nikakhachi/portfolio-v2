@@ -3,6 +3,7 @@ import { Demo } from "./demo";
 import { FC, useState } from "react";
 import { Dialog } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 
 interface ProjectProps {
   image: string;
@@ -14,9 +15,10 @@ interface ProjectProps {
   client: string;
   demo: string | null;
   github: string | null;
+  url: string | null;
 }
 
-export const Project: FC<ProjectProps> = ({ image, name, description, technologies, index, slideshow, client, demo, github }) => {
+export const Project: FC<ProjectProps> = ({ image, name, description, technologies, index, slideshow, client, demo, github, url }) => {
   const [isDemoOpen, setIsDemoOpen] = useState(false);
   const [isDemoVideoOpen, setIsDemoVideoOpen] = useState(false);
 
@@ -36,6 +38,17 @@ export const Project: FC<ProjectProps> = ({ image, name, description, technologi
           <h5>
             {name} <span>({client}) </span>
           </h5>
+          {url && (
+            <a
+              target="_blank"
+              rel="noreferrer"
+              style={{ display: "flex", justifyContent: "right", gap: "0.1rem", alignItems: "center", color: "white" }}
+              href={url}
+            >
+              View Site
+              <VisibilityIcon />
+            </a>
+          )}
           <p>{description}</p>
           <div style={{ display: "flex", justifyContent: "right", gap: "0.7rem", alignItems: "center" }}>
             {github && (

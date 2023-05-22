@@ -16,6 +16,7 @@ const projects = {
       technologies: ["Solidity", "Hardhat", "NextJS"],
       demo: "",
       github: "",
+      url: "",
       type: ProjectType.WEB3,
     },
     {
@@ -29,6 +30,7 @@ const projects = {
       technologies: ["Solidity", "Hardhat", "ReactJS"],
       demo: "assets/projects/escrow/demo.mp4",
       github: "https://github.com/nikakhachi/advanced-escrow-dapp",
+      url: "https://advanced-escrow-dapp.vercel.app/",
       type: ProjectType.WEB3,
     },
     {
@@ -48,6 +50,7 @@ const projects = {
       technologies: ["ReactJS", "ThreeJS", "NodeJS"],
       demo: "",
       github: "",
+      url: "",
       type: ProjectType.WEB3,
     },
   ],
@@ -71,6 +74,7 @@ const projects = {
       technologies: ["ReactJS", "ThreeJS", "NodeJS", "PostgreSQL"],
       demo: "",
       github: "",
+      url: "",
       type: ProjectType.WEB2,
     },
     {
@@ -82,6 +86,7 @@ const projects = {
       slideshow: ["assets/projects/ta/TA.jpg", "assets/projects/ta/TA2.jpg", "assets/projects/ta/TA3.jpg"],
       demo: "",
       github: "",
+      url: "",
       technologies: ["ReactJS", "DeckGL", "NodeJS", "DynamoDB"],
       type: ProjectType.WEB2,
     },
@@ -101,6 +106,7 @@ const projects = {
       technologies: ["ReactJS", "Force-Graph", "NodeJS", "SocketIO", "Neo4j", "PostgreSQL", "S3", "SQS"],
       demo: "",
       github: "",
+      url: "",
       type: ProjectType.WEB2,
     },
     {
@@ -113,6 +119,7 @@ const projects = {
       technologies: ["AngularJS", "Python", "Scrapy", "MongoDB"],
       demo: "",
       github: "",
+      url: "",
       type: ProjectType.WEB2,
     },
     {
@@ -129,6 +136,7 @@ const projects = {
       technologies: ["ReactJS", "TypeScript"],
       demo: "",
       github: "",
+      url: "",
       type: ProjectType.WEB2,
     },
     {
@@ -140,6 +148,7 @@ const projects = {
       technologies: ["NodeJS", "Botkit", "PostgreSQL"],
       demo: "",
       github: "",
+      url: "",
       type: ProjectType.WEB2,
     },
   ],
