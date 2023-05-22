@@ -15,8 +15,8 @@ const projects = {
       slideshow: ["assets/projects/ainft/1.png"],
       technologies: ["Solidity", "Hardhat", "NextJS"],
       demo: "",
-      github: "",
-      url: "",
+      github: "https://github.com/nikakhachi/ai-nft-minter",
+      url: "https://ai-minted.vercel.app/",
       type: ProjectType.WEB3,
     },
     {
