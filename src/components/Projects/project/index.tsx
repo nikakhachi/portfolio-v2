@@ -29,7 +29,7 @@ export const Project: FC<ProjectProps> = ({ image, name, description, technologi
           <img src={image} alt="project" />
           <div className={styles.imgBackground}>
             <button disabled={name === "B Bot"} onClick={() => setIsDemoOpen(true)}>
-              {slideshow.length === 1 ? "No Images" : "DEMO"}
+              DEMO
             </button>
             {isDemoOpen && <Demo slideshow={[...slideshow]} close={() => setIsDemoOpen(false)} />}
           </div>
