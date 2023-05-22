@@ -12,9 +12,9 @@ const projects = {
           with this intuitive dApp, combining cutting-edge AI technology with seamless blockchain integration. 
           Elevate your digital art collection and become part of a vibrant community of artists and collectors.`,
       image: "assets/projects/ainft/1.png",
-      slideshow: ["assets/projects/ainft/1.png"],
+      slideshow: ["assets/projects/ainft/1.png", "assets/projects/ainft/2.png", "assets/projects/ainft/3.png"],
       technologies: ["Solidity", "Hardhat", "NextJS"],
-      demo: "",
+      demo: "assets/projects/ainft/demo.mp4",
       github: "https://github.com/nikakhachi/ai-nft-minter",
       url: "https://ai-minted.vercel.app/",
       type: ProjectType.WEB3,
