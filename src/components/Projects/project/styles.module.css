@@ -10,6 +10,17 @@
   flex-direction: row-reverse;
 }
 
+.linkDiv {
+  display: flex;
+  justify-content: right;
+  gap: 0.7rem;
+  margin: 0.5rem 0;
+}
+
+.projectItemOdd .linkDiv {
+  justify-content: left;
+}
+
 .imgDiv {
   width: 50%;
   position: relative;

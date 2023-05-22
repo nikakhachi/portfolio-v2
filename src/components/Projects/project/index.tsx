@@ -39,18 +39,20 @@ export const Project: FC<ProjectProps> = ({ image, name, description, technologi
             {name} <span>({client}) </span>
           </h5>
           {url && (
-            <a
-              target="_blank"
-              rel="noreferrer"
-              style={{ display: "flex", justifyContent: "right", gap: "0.1rem", alignItems: "center", color: "white" }}
-              href={url}
-            >
-              View Site
-              <VisibilityIcon />
-            </a>
+            <div className={styles.linkDiv}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                style={{ display: "flex", gap: "0.1rem", alignItems: "center", color: "white" }}
+                href={url}
+              >
+                View Site
+                <VisibilityIcon />
+              </a>
+            </div>
           )}
           <p>{description}</p>
-          <div style={{ display: "flex", justifyContent: "right", gap: "0.7rem", alignItems: "center" }}>
+          <div className={styles.linkDiv}>
             {github && (
               <a className={styles.githubLink} target="_blank" rel="noreferrer" style={{ color: "white" }} href={github}>
                 <GitHubIcon />
