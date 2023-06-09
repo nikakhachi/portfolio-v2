@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+// import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import YoutubeIcon from "@mui/icons-material/YouTube";
 import Tooltip from "@mui/material/Tooltip";
 import { FC } from "react";
