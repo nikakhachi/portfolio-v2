@@ -3,10 +3,16 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+import YoutubeIcon from "@mui/icons-material/YouTube";
 import Tooltip from "@mui/material/Tooltip";
 import { FC } from "react";
 
 const icons = [
+  {
+    title: "YouTube",
+    component: <YoutubeIcon fontSize="large" />,
+    url: "https://www.youtube.com/@nikakhachi",
+  },
   {
     title: "LinkedIn",
     component: <LinkedInIcon fontSize="large" />,
