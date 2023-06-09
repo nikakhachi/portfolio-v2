@@ -33,7 +33,7 @@ export const Testimonial: FC<TestimonialProps> = ({ photo, author, authorUrl, co
         </div>
       </div>
       <div className={styles.testimonialInfo}>
-        <p>{testimonial}</p>
+        <p dangerouslySetInnerHTML={{ __html: testimonial }} />
       </div>
     </div>
   );
