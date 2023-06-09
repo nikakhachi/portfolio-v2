@@ -30,13 +30,13 @@
 }
 
 .socialListItem:nth-child(1) a {
-  border: 1px solid #61ebff;
-  color: #61ebff;
+  border: 1px solid #ff6161;
+  color: #ff6161;
 }
 
 .socialListItem:nth-child(2) a {
-  border: 1px solid #ff6161;
-  color: #ff6161;
+  border: 1px solid #61ebff;
+  color: #61ebff;
 }
 
 .socialListItem:nth-child(3) a {
@@ -47,6 +47,11 @@
 .socialListItem:nth-child(4) a {
   border: 1px solid #61ff61;
   color: #61ff61;
+}
+
+.socialListItem:nth-child(5) a {
+  border: 1px solid #ffa061;
+  color: #ffa061;
 }
 
 @keyframes slideInLeft {

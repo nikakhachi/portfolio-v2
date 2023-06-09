@@ -17,17 +17,27 @@
   line-height: 1.175;
   font-weight: 900;
   animation: fadeIn1 1s ease;
+  margin-top: -2rem;
 }
 
-.description {
+.description,
+.subDescription {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
   letter-spacing: 0.05rem;
   font-size: 1.3rem;
   line-height: 1.675;
   font-weight: 100;
-  margin: 1rem 0 1.5rem 0;
   animation: fadeIn2 1.2s ease;
+  max-width: 1100px;
+}
+
+.description {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.subDescription {
+  margin-bottom: 1.5rem;
 }
 
 hr {
@@ -92,7 +102,8 @@ hr {
   .name {
     font-size: 2.3rem;
   }
-  .description {
+  .description,
+  .subDescription {
     font-size: 0.9rem;
   }
   .iconList li {
@@ -108,7 +119,8 @@ hr {
     font-size: 1.9rem;
     width: 95%;
   }
-  .description {
+  .description,
+  .subDescription {
     font-size: 0.8rem;
     width: 95%;
   }

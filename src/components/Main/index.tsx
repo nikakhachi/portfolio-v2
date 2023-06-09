@@ -11,7 +11,11 @@ export const Main: FC<MainProps> = forwardRef((_, ref) => {
   return (
     <div ref={ref} className={styles.container}>
       <h1 className={styles.name}>Nika Khachiashvili</h1>
-      <p className={styles.description}>Experienced Full Stack Web2 Developer transitioning into Web3</p>
+      <p className={styles.description}>
+        Hi there! My name is Nika and I am an <strong>Experienced Full Stack Web2 developer transitioning into the world of Web3</strong>. I
+        also have a <strong>YouTube channel</strong> where I talk about coding, career and personal growth.
+      </p>
+      <p className={styles.subDescription}>Welcome to my portfolio!</p>
       <ul className={styles.iconList}>
         <li>
           <FaReact />
