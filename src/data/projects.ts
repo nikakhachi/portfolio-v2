@@ -6,6 +6,25 @@ export enum ProjectType {
 const projects = {
   web3: [
     {
+      name: "SwapEx",
+      client: "Personal",
+      description: `A decentralized exchange (DEX) powered by a Constant Product AMM. Seamlessly swap tokens, provide liquidity, 
+          and utilize token faucets. Stake ETH with the Synthetic Staking Rewards Contract to earn rewards. Join SwapEx for a secure, 
+          censorship-resistant, and intermediary-free trading experience.`,
+      image: "assets/projects/swapex/1.png",
+      slideshow: [
+        "assets/projects/swapex/1.png",
+        "assets/projects/swapex/2.png",
+        "assets/projects/swapex/3.png",
+        "assets/projects/swapex/4.png",
+      ],
+      technologies: ["Solidity", "Hardhat", "ReactJS"],
+      demo: "assets/projects/swapex/demo.mp4",
+      github: "https://github.com/nikakhachi/SwapEx",
+      url: "https://swap-ex.vercel.app/",
+      type: ProjectType.WEB3,
+    },
+    {
       name: "AI-Minted",
       client: "Personal",
       description: `Connect your wallet, generate AI-powered images, and mint your favorites as NFTs. Unleash your creativity 
