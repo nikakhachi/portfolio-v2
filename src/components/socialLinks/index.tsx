@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-// import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
 import YoutubeIcon from "@mui/icons-material/YouTube";
 import Tooltip from "@mui/material/Tooltip";
 import { FC } from "react";
@@ -28,11 +28,11 @@ const icons = [
     component: <MailOutlineIcon fontSize="large" />,
     url: "mailto:n.khachiashvili1@gmail.com",
   },
-  // {
-  //   title: "CV",
-  //   component: <PictureAsPdfIcon fontSize="large" />,
-  //   url: "./CV_Nika_Khachiashvili.pdf",
-  // },
+  {
+    title: "CV",
+    component: <PictureAsPdfIcon fontSize="large" />,
+    url: "./CV_Nika_Khachiashvili.pdf",
+  },
 ];
 
 export const SocialList: FC = () => {
