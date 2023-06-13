@@ -6,7 +6,7 @@ const testimonials = [
     company: "Business Transaction AG",
     companyUrl: "https://businesstransaction.ch/",
     position: "Partner",
-    testimonial: `...Nika works <b>very fast</b>, qualitatively on an extremely high level and also 
+    testimonial: `...Nika works <b>very fast</b>, qualitatively on an <b>extremely high level</b> and also 
       implemented things with high complexity to our complete satisfaction. Nika communicates 
       to the point, is very <b>patient</b> and always <b>courteous</b>. We would work with Nika again at any 
       time and highly recommend him. Thank you!`,
