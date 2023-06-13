@@ -12,8 +12,8 @@ export const Main: FC<MainProps> = forwardRef((_, ref) => {
     <div ref={ref} className={styles.container}>
       <h1 className={styles.name}>Nika Khachiashvili</h1>
       <p className={styles.description}>
-        Hi there! My name is Nika and I am an <strong>Experienced Full Stack Web2 developer transitioning into the world of Web3</strong>. I
-        also have a <strong>YouTube channel</strong> where I talk about coding, career and personal growth.
+        Hi there! My name is Nika and I am an <strong>Experienced Full Stack developer transitioning into the world of Web3</strong>. I also
+        have a <strong>YouTube channel</strong> where I talk about coding, career and personal growth.
       </p>
       <p className={styles.subDescription}>Welcome to my portfolio!</p>
       <ul className={styles.iconList}>
