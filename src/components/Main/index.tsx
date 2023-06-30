@@ -1,9 +1,8 @@
 import styles from "./main.module.css";
 import { SocialList } from "../socialLinks";
-import { SiTypescript } from "react-icons/si";
 import { FC, forwardRef } from "react";
-import { FaNodeJs, FaReact, FaAws } from "react-icons/fa";
-import { SiSolidity } from "react-icons/si";
+import { FaNodeJs, FaReact, FaEthereum } from "react-icons/fa";
+import { SiSolidity, SiTypescript } from "react-icons/si";
 
 interface MainProps extends React.RefAttributes<HTMLDivElement> {}
 
@@ -18,24 +17,24 @@ export const Main: FC<MainProps> = forwardRef((_, ref) => {
       <p className={styles.subDescription}>Welcome to my portfolio!</p>
       <ul className={styles.iconList}>
         <li>
-          <FaReact />
-          <p>ReactJS</p>
-        </li>
-        <li>
-          <SiTypescript />
-          <p>Typescript</p>
-        </li>
-        <li>
           <SiSolidity />
           <p>Solidity</p>
+        </li>
+        <li>
+          <FaEthereum />
+          <p>Ethereum</p>
         </li>
         <li>
           <FaNodeJs />
           <p>NodeJS</p>
         </li>
         <li>
-          <FaAws />
-          <p>AWS</p>
+          <SiTypescript />
+          <p>Typescript</p>
+        </li>
+        <li>
+          <FaReact />
+          <p>ReactJS</p>
         </li>
       </ul>
       <hr />
