@@ -6,6 +6,18 @@ export enum ProjectType {
 const projects = {
   web3: [
     {
+      name: "Family Savings",
+      client: "Personal",
+      description: `Vote-based collaborative family savings account where members deposit, borrow and lend assets to others. Support for multiple assets, voting-based borrowing activation, and family member addition/revocation. Empowering financial decisions through secure voting.`,
+      image: "assets/projects/savings/1.png",
+      slideshow: ["assets/projects/savings/1.png"],
+      technologies: ["Solidity", "Foundry"],
+      demo: "",
+      github: "https://github.com/nikakhachi/family-savings",
+      url: "",
+      type: ProjectType.WEB3,
+    },
+    {
       name: "SwapEx",
       client: "Personal",
       description: `A decentralized exchange (DEX) powered by a Constant Product AMM. Seamlessly swap tokens, provide liquidity, 
