@@ -18,7 +18,7 @@ export const Partnerships: FC<PartnershipsProps> = forwardRef((_, ref) => {
           </div>
         ))}
       </div>
-      <p className={styles.text}>And more anonymous companies</p>
+      <p className={styles.text}>And more anonymous companies/projects</p>
     </div>
   );
 });
