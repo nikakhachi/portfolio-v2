@@ -11,10 +11,12 @@ export const Main: FC<MainProps> = forwardRef((_, ref) => {
     <div ref={ref} className={styles.container}>
       <h1 className={styles.name}>Nika Khachiashvili</h1>
       <p className={styles.description}>
-        Hi there! My name is Nika and I'm a <strong>Solidity Developer with a strong background in Full Stack development</strong>. I also
-        have a <strong>YouTube channel</strong> where I talk about coding, career and personal growth.
+        I'm a <strong>Solidity Developer</strong> with a strong background in Full Stack development. From architectural design to
+        implementation and successful delivery, I have experience in <strong>leading</strong> feature developments.
       </p>
-      <p className={styles.subDescription}>Welcome to my portfolio!</p>
+      <p className={styles.subDescription}>
+        On the side, I have a <strong>YouTube channel</strong> where I talk about coding, career and personal growth.
+      </p>
       <ul className={styles.iconList}>
         <li>
           <SiSolidity />
