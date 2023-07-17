@@ -28,11 +28,6 @@ const icons = [
     component: <MailOutlineIcon fontSize="large" />,
     url: "mailto:n.khachiashvili1@gmail.com",
   },
-  {
-    title: "CV",
-    component: <PictureAsPdfIcon fontSize="large" />,
-    url: "./CV_Nika_Khachiashvili.pdf",
-  },
 ];
 
 export const SocialList: FC = () => {
