@@ -7,6 +7,7 @@ import { Contact } from "./Contact";
 import { useTransition } from "react-spring";
 import { LoadingScreen } from "./LoadingScreen";
 import { Appbar } from "./Appbar";
+import { Partnerships } from "./Partnerships";
 
 function MainView() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -30,6 +31,7 @@ function MainView() {
   const contactRef = useRef<any>(null);
   const projectsRef = useRef<any>(null);
   const testimonialsRef = useRef<any>(null);
+  const partnershipsRef = useRef<any>(null);
 
   const listenToScroll = () => {
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -67,6 +69,12 @@ function MainView() {
       behavior: "smooth",
     });
   };
+  const scrollToPartnerships = () => {
+    partnershipsRef.current.scrollIntoView({
+      block: "start",
+      behavior: "smooth",
+    });
+  };
 
   return (
     <>
@@ -80,8 +88,10 @@ function MainView() {
           scrollToProjects,
           scrollToTestimonials,
           scrollToAbout,
+          scrollToPartnerships,
         }}
       />
+      <Partnerships ref={partnershipsRef} />
       <Projects scrollToStart={scrollToProjects} ref={projectsRef} />
       <Testimonials ref={testimonialsRef} />
       <Contact ref={contactRef} />
