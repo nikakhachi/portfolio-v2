@@ -47,7 +47,7 @@ function MainView() {
     setTimeout(() => {
       setIsLoading(false);
       body.style.overflowY = "scroll";
-    }, 1500);
+    }, 500);
     window.addEventListener("scroll", listenToScroll);
     return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
