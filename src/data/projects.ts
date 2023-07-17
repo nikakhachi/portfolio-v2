@@ -10,7 +10,7 @@ const projects = {
       client: "Personal",
       description: `Vote-based collaborative family savings account where members deposit, borrow and lend assets to others. Support for multiple assets, voting-based borrowing activation, and family member addition/revocation. Empowering financial decisions through secure voting.`,
       image: "assets/projects/savings/1.png",
-      slideshow: ["assets/projects/savings/1.png"],
+      slideshow: [],
       technologies: ["Solidity", "Foundry"],
       demo: "",
       github: "https://github.com/nikakhachi/family-savings",
@@ -86,6 +86,19 @@ const projects = {
     },
   ],
   web2: [
+    {
+      name: "Business Transaction",
+      client: "Consulting Company",
+      description:
+        "Business Transaction AG is an owner-managed, independent consulting company specializing in the entire processing of corporate transactions and succession planning. Their customers are successful entrepreneurs with reputable companies, which they accompany through the challenging process of selling a company, from the valuation to the conclusion of the contract.",
+      image: "assets/projects/bt/1.png",
+      slideshow: [],
+      technologies: ["VueJS", "MySQL", "Kotlin"],
+      demo: "",
+      github: "",
+      url: "https://businesstransaction.ch/",
+      type: ProjectType.WEB2,
+    },
     {
       name: "Salescoach",
       client: "Insurance Company",
@@ -175,7 +188,7 @@ const projects = {
       client: "Bank owned Insurance Company",
       description: "Messenger bot. Serves as a number 1 insurance bot in Georgia.",
       image: "assets/projects/bbot/BB.jpeg",
-      slideshow: ["assets/projects/bbot/BB.jpeg"],
+      slideshow: [],
       technologies: ["NodeJS", "Botkit", "PostgreSQL"],
       demo: "",
       github: "",

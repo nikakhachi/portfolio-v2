@@ -27,7 +27,7 @@ export const Project: FC<ProjectProps> = ({ image, name, description, technologi
       <div className={`${styles.projectItem} ${index % 2 === 0 && styles.projectItemOdd}`}>
         <div className={styles.imgDiv}>
           <img src={image} alt="project" />
-          <div className={styles.imgBackground} style={{ display: name === "B Bot" || name === "Family Savings" ? "none" : "" }}>
+          <div className={styles.imgBackground} style={{ display: !slideshow.length ? "none" : "" }}>
             <button onClick={() => setIsDemoOpen(true)}>DEMO</button>
             {isDemoOpen && <Demo slideshow={[...slideshow]} close={() => setIsDemoOpen(false)} />}
           </div>
