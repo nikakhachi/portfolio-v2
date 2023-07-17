@@ -26,6 +26,16 @@ const partnerships = [
     link: "https://www.peppermill.ch/",
   },
   {
+    name: "Pulsar AI",
+    photo: "assets/partnerships/pulsar-ai.png",
+    link: "https://www.linkedin.com/company/pulsar-ai-georgia/about/",
+  },
+  {
+    name: "Chakrulo",
+    photo: "assets/partnerships/chakrulo.svg",
+    link: "https://www.chakrulo.com/",
+  },
+  {
     name: "TBC Insurance",
     photo: "assets/partnerships/tbc-insurance.svg",
     link: "https://tbcinsurance.ge/en",
