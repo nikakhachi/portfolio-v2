@@ -52,20 +52,6 @@ const projects = {
       type: ProjectType.WEB3,
     },
     {
-      name: "SecureTransaction",
-      client: "Personal",
-      description: `The dApp is enabling users to initiate escrows for their transactions. Intermediary agents handle escrow initiation, 
-        cancellation, and rejection. Agents receive a fee from successful escrows and everyone can apply to become an agent once they
-        have been approved by the smart contract owner.`,
-      image: "assets/projects/escrow/1.png",
-      slideshow: ["assets/projects/escrow/1.png"],
-      technologies: ["Solidity", "Hardhat", "ReactJS"],
-      demo: "assets/projects/escrow/demo.mp4",
-      github: "https://github.com/nikakhachi/advanced-escrow-dapp",
-      url: "https://advanced-escrow-dapp.vercel.app/",
-      type: ProjectType.WEB3,
-    },
-    {
       name: "Chakrulo",
       client: "Startup",
       description: `Chakrulo is a unique platform for musicians and audio enthusiasts seeking innovative ways to explore sound. 
@@ -83,6 +69,20 @@ const projects = {
       demo: "",
       github: "",
       url: "",
+      type: ProjectType.WEB3,
+    },
+    {
+      name: "SecureTransaction",
+      client: "Personal",
+      description: `The dApp is enabling users to initiate escrows for their transactions. Intermediary agents handle escrow initiation, 
+        cancellation, and rejection. Agents receive a fee from successful escrows and everyone can apply to become an agent once they
+        have been approved by the smart contract owner.`,
+      image: "assets/projects/escrow/1.png",
+      slideshow: ["assets/projects/escrow/1.png"],
+      technologies: ["Solidity", "Hardhat", "ReactJS"],
+      demo: "assets/projects/escrow/demo.mp4",
+      github: "https://github.com/nikakhachi/advanced-escrow-dapp",
+      url: "https://advanced-escrow-dapp.vercel.app/",
       type: ProjectType.WEB3,
     },
   ],
