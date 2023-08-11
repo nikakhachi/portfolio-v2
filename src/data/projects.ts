@@ -17,6 +17,21 @@ const projects = {
       url: "",
       type: ProjectType.WEB3,
     },
+
+    {
+      name: "AI-Minted",
+      client: "Personal",
+      description: `Connect your wallet, generate AI-powered images, and mint your favorites as NFTs. Unleash your creativity 
+          with this intuitive dApp, combining cutting-edge AI technology with seamless blockchain integration. 
+          Elevate your digital art collection and become part of a vibrant community of artists and collectors.`,
+      image: "assets/projects/ainft/1.png",
+      slideshow: ["assets/projects/ainft/1.png", "assets/projects/ainft/2.png", "assets/projects/ainft/3.png"],
+      technologies: ["Solidity", "Hardhat", "NextJS"],
+      demo: "assets/projects/ainft/demo.mp4",
+      github: "https://github.com/nikakhachi/ai-nft-minter",
+      url: "https://ai-minted.vercel.app/",
+      type: ProjectType.WEB3,
+    },
     {
       name: "SwapEx",
       client: "Personal",
@@ -34,20 +49,6 @@ const projects = {
       demo: "assets/projects/swapex/demo.mp4",
       github: "https://github.com/nikakhachi/SwapEx",
       url: "https://swap-ex.vercel.app/",
-      type: ProjectType.WEB3,
-    },
-    {
-      name: "AI-Minted",
-      client: "Personal",
-      description: `Connect your wallet, generate AI-powered images, and mint your favorites as NFTs. Unleash your creativity 
-          with this intuitive dApp, combining cutting-edge AI technology with seamless blockchain integration. 
-          Elevate your digital art collection and become part of a vibrant community of artists and collectors.`,
-      image: "assets/projects/ainft/1.png",
-      slideshow: ["assets/projects/ainft/1.png", "assets/projects/ainft/2.png", "assets/projects/ainft/3.png"],
-      technologies: ["Solidity", "Hardhat", "NextJS"],
-      demo: "assets/projects/ainft/demo.mp4",
-      github: "https://github.com/nikakhachi/ai-nft-minter",
-      url: "https://ai-minted.vercel.app/",
       type: ProjectType.WEB3,
     },
     {
