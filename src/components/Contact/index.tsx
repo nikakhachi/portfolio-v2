@@ -10,20 +10,14 @@ export const Contact: FC<ContactProps> = forwardRef((_, ref) => {
       <h3 className={styles.title}>Contact Me</h3>
       <hr />
       <p className={styles.description}>
-        Want to discuss a project, collaborate, or simply have a chat? I'm just an email away! Drop me a line at{" "}
+        Want to discuss a project, collaborate, or simply have a chat? <br /> Hit me up on my{" "}
         <strong>
-          <a target="_blank" rel="noreferrer" href="mailto:n.khachiashvili1@gmail.com">
-            n.khachiashvili1@gmail.com
+          <a target="_blank" rel="noreferrer" href="https://t.me/nikakhachi">
+            Telegram
           </a>
         </strong>
-        ,and I'll get back to you promptly. <br />
-        You can also connect with me directly on{" "}
-        <strong>
-          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nika-khachiashvili/">
-            LinkedIn
-          </a>{" "}
-        </strong>
-        for a quick conversation.
+        , and I'll get back to you promptly. <br />
+        You can also reach out to me via any social medias listed below 👇
       </p>
       <SocialList />
     </div>
