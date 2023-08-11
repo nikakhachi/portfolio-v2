@@ -92,8 +92,8 @@ function MainView() {
         }}
       />
       <Partnerships ref={partnershipsRef} />
-      <Projects scrollToStart={scrollToProjects} ref={projectsRef} />
       <Testimonials ref={testimonialsRef} />
+      <Projects scrollToStart={scrollToProjects} ref={projectsRef} />
       <Contact ref={contactRef} />
     </>
   );

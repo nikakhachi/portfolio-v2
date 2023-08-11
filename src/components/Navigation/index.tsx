@@ -27,14 +27,14 @@ export const Navigation: FC<NavigationProps> = ({ scrolls, scrollPosition }) => 
         >
           Partnerships
         </li>
-        <li className={scrollPosition < 0.66 && scrollPosition > 0.4 ? styles.activeItem : "nonActive"} onClick={scrolls.scrollToProjects}>
-          Projects
-        </li>
         <li
-          className={scrollPosition < 0.9 && scrollPosition > 0.66 ? styles.activeItem : "nonActive"}
+          className={scrollPosition < 0.66 && scrollPosition > 0.4 ? styles.activeItem : "nonActive"}
           onClick={scrolls.scrollToTestimonials}
         >
           Testimonials
+        </li>
+        <li className={scrollPosition < 0.9 && scrollPosition > 0.66 ? styles.activeItem : "nonActive"} onClick={scrolls.scrollToProjects}>
+          Projects
         </li>
         <li className={scrollPosition >= 0.9 ? styles.activeItem : "nonActive"} onClick={scrolls.scrollToContact}>
           Contact
