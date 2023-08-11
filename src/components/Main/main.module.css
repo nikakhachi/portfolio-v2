@@ -21,7 +21,8 @@
 }
 
 .description,
-.subDescription {
+.subDescription,
+.occupation {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
   letter-spacing: 0.05rem;
@@ -30,6 +31,12 @@
   font-weight: 100;
   animation: fadeIn2 1.2s ease;
   max-width: 1100px;
+}
+
+.occupation {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 .description {
