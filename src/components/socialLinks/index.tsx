@@ -3,6 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import YoutubeIcon from "@mui/icons-material/YouTube";
+import TelegramIcon from "@mui/icons-material/Telegram";
 import Tooltip from "@mui/material/Tooltip";
 import { FC } from "react";
 
@@ -16,6 +17,11 @@ const icons = [
     title: "LinkedIn",
     component: <LinkedInIcon fontSize="large" />,
     url: "https://www.linkedin.com/in/nika-khachiashvili/",
+  },
+  {
+    title: "Telegram",
+    component: <TelegramIcon fontSize="large" />,
+    url: "https://t.me/nikakhachi",
   },
   {
     title: "Github",

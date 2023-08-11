@@ -34,12 +34,12 @@
   color: #ff6161;
 }
 
-.socialListItem:nth-child(2) a {
+.socialListItem:nth-child(3) a {
   border: 1px solid #61ebff;
   color: #61ebff;
 }
 
-.socialListItem:nth-child(3) a {
+.socialListItem:nth-child(2) a {
   border: 1px solid #ddff61;
   color: #ddff61;
 }
