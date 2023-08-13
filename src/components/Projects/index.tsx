@@ -33,9 +33,7 @@ export const Projects: FC<ProjectsProps> = forwardRef((props, ref) => {
 
   return (
     <div ref={ref} className={styles.container}>
-      <h3 className={styles.title}>
-        Projects <span>(Total {projects.web2.length + projects.web3.length})</span>
-      </h3>
+      <h3 className={styles.title}>Projects</h3>
       <hr />
       <span style={{ marginTop: "1rem" }}>
         Web3
