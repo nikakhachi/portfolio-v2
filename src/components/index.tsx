@@ -91,9 +91,9 @@ function MainView() {
           scrollToPartnerships,
         }}
       />
-      <Partnerships ref={partnershipsRef} />
-      <Testimonials ref={testimonialsRef} />
       <Projects scrollToStart={scrollToProjects} ref={projectsRef} />
+      <Testimonials ref={testimonialsRef} />
+      <Partnerships ref={partnershipsRef} />
       <Contact ref={contactRef} />
     </>
   );
