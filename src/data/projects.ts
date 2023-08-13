@@ -9,7 +9,7 @@ const projects = {
       name: "Family Savings",
       client: "Personal",
       description: `Vote-based collaborative family savings account where members deposit, borrow and lend assets to others. Support for multiple assets, voting-based borrowing activation, and family member addition/revocation. Empowering financial decisions through secure voting.`,
-      image: "assets/projects/savings/1.png",
+      image: "assets/projects/savings/1.jpg",
       slideshow: [],
       technologies: ["Solidity", "Foundry"],
       demo: "",
