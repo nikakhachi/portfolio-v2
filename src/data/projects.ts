@@ -17,7 +17,18 @@ const projects = {
       url: "",
       type: ProjectType.WEB3,
     },
-
+    {
+      name: "DynaStake",
+      client: "Personal",
+      description: `A dynamic staking platform where users can stake tokens and earn rewards in native token. The smart contract is UUPS upgradeable and currently v1 is launched. Join  the DynaStake and collaboratively shape financial outcomes.`,
+      image: "assets/projects/staking/1.png",
+      slideshow: [],
+      technologies: ["React", "Solidity", "Foundry", "Hardhat"],
+      demo: "",
+      github: "https://github.com/nikakhachi/dynamic-staking-upgradeable",
+      url: "https://dynamic-staking-upgradeable.vercel.app",
+      type: ProjectType.WEB3,
+    },
     {
       name: "AI-Minted",
       client: "Personal",

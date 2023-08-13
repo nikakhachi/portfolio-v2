@@ -27,7 +27,7 @@ interface ProjectsProps extends React.RefAttributes<HTMLDivElement> {
 }
 
 export const Projects: FC<ProjectsProps> = forwardRef((props, ref) => {
-  const DEFAULT_LIMIT = 2;
+  const DEFAULT_LIMIT = 3;
   const [limit, setLimit] = useState(DEFAULT_LIMIT);
   const [projectType, setProjectType] = useState(ProjectType.WEB3);
 
